@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PAX29</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+            <header>
+                <nav class ="navbar">
+                        <h1>PAX29</h1>
+                            <a href="#eng">Инженерное</a>
+                            <a href="#mus">Музыка</a>
+                            <a href="#mov">Кино</a>
+                            <a href="#sport">Спорт</a>
+                            <a href="#dev">Разработка</a>
+                            <a href="#contacts">Контакты</a>
+                </nav>
+            </header>
+            <main>
+                <img src="media/photo2.jpg" width=400px alt="фото PAX29">
+                <p>Привет! Вы находитесь на персональной странице PAX29. Этот сайт создан как "сайт-визитка" в процессе обучения на курсе Front-end разработчик skillfactory.ru. Дальше идёт рассказ обо мне. Мои специализации:</p>
+                
+                <h2 id="eng">Инженерное</h2>
+                <p>С детства увлекался ломанием и починкой вещей. Сначала получалось только ломать, потом стало получаться чинить и даже <strong>создавать</strong>. Вдохновением для меня стали гидроманипуляторы советских мусоровозов, механика настольных часов, приземление "Бурана", фильм "Назад в будущее" и книги Жуля Верна. После окончания школы я обучался на морского инженера и работаю в море. Моя основная работа связана с электрооборудованием. Всё, начиная от электростанции с дизель-генераторами и заканчивая печатными платами и программным обеспечением на них представляет интерес для меня. В настоящее время я работаю электромехаником в команде судна геотехнического бурения.</p>
+
+                <h2 id="mus">Музыка</h2>
+                <p>Обожаю слушать и создавать музыку. Мне нравятся различные направления. Электроника, джаз, классика. Вдохновением в творчестве для меня были и являются Пётр Чайковский, Эдуард Артемьев, Depeche Mode, Chemical Brothers, Underworld, Duke Ellington, Miles Davis, John Coltrain и другие. Так как я уже освоил <em>HTML тэги</em>, я могу вставлять аудио на страницу и сейчас играет один из моих треков. Он создан с использованием сэмплов и скретчей с пластинки группы Parliament. Если есть желание послушать, прибавьте громкость ниже.</p>
+                <figure>
+                    <figcaption>Слушать PAX29 - seq48:</figcaption>
+                    <audio controls loop="true" autoplay="true" muted="true">
+                        <source src="media/seq48.mp3">
+                            Здесь должен быть аудио файл
+                    </audio>
+                </figure>
+
+                <h2 id="mov">Кино</h2>
+                <p>Люблю смотреть кино. Нравится много что, от Тарковского до боевиков с Вандамом из 90-х. На работе создал "Moviehub" - Медиа сервер <a href="https://jellyfin.org">Jellyfin</a> подгружает субтитры и информацию о видео-файлах из интернета и создает в локальной сети веб-каталог наподобие Кинопоиска или тех что встречаются в самолётах. Медиа сервер установлен в docker-контейнере на ОС <a href="https://OpenMediaVault">OpenMediaVault</a>. Вишенка на торте - клиентские приложения Jellyfin для разных ОС.</p>
+                <figure>
+                    <figcaption>лучший фильм недели - The Adventure of Sherlock Holmes' Smarter Brother:</figcaption>
+                    <video width=640 height=360 controls loop="true" muted="true">
+                        <source src="media/holmesbrother.mp4">
+                            Здесь должен быть видео файл
+                    </audio>
+                </figure>
+                <h2 id="sport">Спорт</h2>
+                <p>Летом люблю кататься на велике, а зимой на горных лыжах.</p>
+
+                <h2 id="dev">Как я становился разработчиком</h2>
+                <p>Я не представляю свою жизнь без компьютера. Первый компьютер "Ассистент" у меня появился в 1991 году. В нем был встроенный интерпретатор Бейсик, в качестве запоминающего устройства использовался магнитофон с кассетами. Загрузку небольшой игры нужно было ждать несколько минут. На нём я изучал Бейсик. Позже, в школе я пробовал программировать на visual basic. Еще я изучал python. Сейчас изучаю HTML и CSS. Чувствую что мне интересно этим заниматься, хочу чтобы программирование стало как минимум моей второй профессией.</p>
+                <p>На каких языках я программировал:</p>    
+                    <ul>
+                        <li>Basic</li>
+                        <li>Visual Basic</li>
+                        <li>C/C++ (Arduino IDE)</li>
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </p>
+                <h2 id="contacts">Контакты</h2>
+                <p class="contact">
+                    <img src="media/email-icon.svg" alt="Email logo" width="30px">
+                    <a href="mailto:ivanpanin@mailbox.org">ivanpanin@mailbox.org ,</a>
+                    <a href="media/Ivan_Panin.asc">публичный_ключ</a>
+                </p>
+                <p class="contact">
+                    <img src="media/github.png" alt="GitHub logo" width="30px">
+                    <a href="https://github.com/pax29" style="">pax29</a>
+                </p>
+                <p class="contact">
+                    <img src="media/telegram-logo.svg" alt="Telegram logo" width="30px">
+                    <a href="https://t.me/hotpanini">hotpanini</a>
+                </p>
+                <p class="contact">
+                    <img src="media/LinkedIn_logo_In-Black.svg" alt="LinkedIn logo" width="30px">
+                    <a href="https://www.linkedin.com/in/ivan-panin-7566b6b4">Ivan-Panin-7566b6b4</a>
+                </p>
+                <p>
+                    <br>
+                </p>
+            </main>
+            <footer>copyleft 2022 PAX29</a>
+            </footer>
+    </body>
+</html>
